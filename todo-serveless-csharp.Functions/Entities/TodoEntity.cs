@@ -3,7 +3,7 @@ using System;
 
 namespace todo_serveless_csharp.Functions.Entities
 {
-    class TodoEntity : TableEntity
+    public class TodoEntity : TableEntity
     {
         public DateTime CreateTime { get; set; }
         public string TaskDescription { get; set; }
